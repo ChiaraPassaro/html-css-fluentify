@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: Roboto, sans-serif;
+}
+
+
+.page-header {
+  height: 450px;
+  background-color: #0c325a;
+  background-image: url("../img/oldman.png");
+  background-size: 60%;
+  background-position: 110% 110%;
+  background-repeat: no-repeat;
+
+  color: #fff;
+}
+
+.page-main {
+  background-color: green;
+}
+
+.page-footer {
+  background-color: #d3d3d3;
+}
+
+/* MENU PRINCIPALE */
+
+.header-nav {
+  width: 85%;
+  height: 80px;
+  margin: 0 auto;
+  line-height: 80px;
+}
+.header-nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.list-inline {
+  list-style: none;
+}
+
+.header-nav li {
+  display: inline;
+  padding: 0 10px;
+}
+.header-nav-left li:first-child {
+  padding-left: 0;
+}
+
+.header-nav a {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.logo-link {
+  margin-right: 12px;
+}
+
+.header-nav-left {
+  float: left;
+}
+.header-nav-right {
+  float: right;
+}
+
+/* Bannerone */
+.bannerone {
+  position: relative;
+  width: 85%;
+  height: 370px;
+  margin: 0 auto;
+}
+.testo-bannerone {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 50%;
+}
+.testo-bannerone > h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+a.button {
+  padding: 20px;
+  display: inline-block;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 22px;
+}
+.button-green {
+  background-color: #7cbb02;
+}
